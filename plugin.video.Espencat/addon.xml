@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Espencat"
+       name="[COLOR orange][B]*   ESPENCAT   *[/B][/COLOR]"
+       version="2.0"
+       provider-name="[COLOR white]єѕρєηcαт[/COLOR]">
+       
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.resolveurl" />
+    <import addon="script.module.inputstreamhelper" optional="true"/> 
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.pyamf" optional="true"/>
+	<import addon="plugin.video.quasar" optional="true"/>
+	<import addon="plugin.video.pulsar" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">[COLOR yellow]***  ESPENCAT  ***[/COLOR]</summary>
+    <description lang="es">Add-on actualizado a fecha : [COLOR yellow]15/06/2020[/COLOR][CR]Este addon se ha realizado sin ningún ánimo de lucro.[CR][COLOR orange][B]SÓLO PARA MIS AMIGOS[/B][/COLOR][CR]Si llegas a conseguirlo estás actuando contra la voluntad del creador.[CR]NO difundir ya que es de uso privado.[CR][COLOR yellow]               єѕρєηcαт[/COLOR]</description>
+    <disclaimer lang="es">[COLOR red]El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos. Los contenidos son enlaces recopilados de internet.[/COLOR]</disclaimer>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <platform>all</platform>
+  </extension>
+</addon>

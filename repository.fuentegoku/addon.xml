@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.fuentegoku" name="Goku official Repo" version="1.1.0" provider-name="Espencat">
+	<extension point="xbmc.addon.repository" name="Goku official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/pakito71/FuenteGoku/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/pakito71/FuenteGoku/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/pakito71/FuenteGoku/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Goku official Repo</summary>
+   		<description lang="en">Instala los Addons de Espencat.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
